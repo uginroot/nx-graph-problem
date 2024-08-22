@@ -1,0 +1,14 @@
+{
+    "name": "@nx-graph-problem/parent",
+    "targets": {
+        "build": {
+            "executor": "@nx/js:tsc",
+            "options": {
+                "main": "{projectRoot}/src/index.ts",
+                "rootDir": "{projectRoot}/src/",
+                "outputPath": "{projectRoot}/dist/",
+                "tsConfig": "{projectRoot}/tsconfig.json"
+            }
+        }
+    }
+}
